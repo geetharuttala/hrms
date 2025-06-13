@@ -3,10 +3,14 @@ import pandas as pd
 from pathlib import Path
 from etl import ETLPipeline
 from config import etl_config, app_config
+from activity_logger import get_logger
 
 def render_file_upload(db_pool):
     """Render the file upload page"""
     st.subheader("File Upload")
+    
+    # Get the global activity logger instance
+    logger = get_logger()
 
     # Create a single file uploader for multiple files
     uploaded_files = st.file_uploader(
@@ -36,8 +40,22 @@ def render_file_upload(db_pool):
                 with open(save_path, "wb") as f:
                     f.write(uploaded_file.getbuffer())
                 files_dict[file_type] = save_path
+                # Log file upload
+                logger.log_file_upload(
+                    filename=uploaded_file.name,
+                    file_type=file_type,
+                    user=st.session_state.get('user', 'anonymous'),
+                    status="SUCCESS"
+                )
             else:
                 unrecognized_files.append(uploaded_file.name)
+                # Log unrecognized file
+                logger.log_event(
+                    event_type="FILE_UPLOAD",
+                    description=f"Unrecognized file: {uploaded_file.name}",
+                    user=st.session_state.get('user', 'anonymous'),
+                    details={"status": "FAILED", "reason": "Unrecognized file type"}
+                )
 
         # Show simple status message
         if files_dict:
@@ -53,6 +71,16 @@ def render_file_upload(db_pool):
                         # Initialize and run ETL pipeline
                         pipeline = ETLPipeline()
                         success, message, stats = pipeline.process_files(files_dict)
+
+                        # Log file processing results
+                        for file_type, file_path in files_dict.items():
+                            logger.log_file_processing(
+                                filename=file_path.name,
+                                records_processed=stats.get('records_processed', 0),
+                                records_success=stats.get('records_success', 0),
+                                records_failed=stats.get('validation_errors', {}).get(file_type, 0),
+                                user=st.session_state.get('user', 'anonymous')
+                            )
 
                         # Show simple results
                         if success:
@@ -71,6 +99,13 @@ def render_file_upload(db_pool):
 
                 except Exception as e:
                     st.error(f"Error processing files: {e}")
+                    # Log processing error
+                    logger.log_event(
+                        event_type="FILE_PROCESSING",
+                        description=f"Error processing files: {str(e)}",
+                        user=st.session_state.get('user', 'anonymous'),
+                        details={"status": "FAILED", "error": str(e)}
+                    )
 
     # Show upload history
     st.subheader("Upload History")
@@ -116,4 +151,11 @@ def render_file_upload(db_pool):
                 st.info("No previous uploads found")
 
     except Exception as e:
-        st.error(f"Error loading upload history: {e}") 
+        st.error(f"Error loading upload history: {e}")
+        # Log error loading upload history
+        logger.log_event(
+            event_type="ERROR",
+            description=f"Error loading upload history: {str(e)}",
+            user=st.session_state.get('user', 'anonymous'),
+            details={"error": str(e)}
+        ) 

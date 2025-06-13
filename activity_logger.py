@@ -17,6 +17,7 @@ from sqlalchemy.orm import sessionmaker, Session
 import pandas as pd
 import os
 from dotenv import load_dotenv
+from urllib.parse import quote_plus
 
 # Load environment variables
 load_dotenv()
@@ -67,8 +68,11 @@ class ActivityLogger:
                 db_user = os.getenv('DB_USER', 'hr_admin')
                 db_password = os.getenv('DB_PASSWORD', '')
                 
+                # URL encode the password if it contains special characters
+                encoded_password = quote_plus(db_password)
+                
                 # Create SQLAlchemy engine for PostgreSQL with connection pooling
-                db_url = f"postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
+                db_url = f"postgresql://{db_user}:{encoded_password}@{db_host}:{db_port}/{db_name}"
                 self.engine = create_engine(db_url, pool_size=5, max_overflow=10)
             else:
                 self.engine = engine

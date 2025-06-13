@@ -1,4 +1,3 @@
-
 """
 Main Streamlit application for HR Management System
 """
@@ -19,10 +18,12 @@ from tasks_summariser import task_summarizer
 from custom_queries import render_custom_queries
 from file_upload import render_file_upload
 from report import render_standard_reports
+from activity_log_view import render_activity_logs
+from activity_logger import get_logger
+from allocations import render_allocations
+
 # Load environment variables
-
 load_dotenv()
-
 
 # URL encode the password if it contains special characters
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
@@ -38,6 +39,9 @@ DB_PASSWORD = os.getenv('DB_PASSWORD')
 encoded_password = quote_plus(DB_PASSWORD)
 DATABASE_URL = f"postgresql://{DB_USER}:{encoded_password}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 engine = create_engine(DATABASE_URL)
+
+# Initialize activity logger with the main engine
+activity_logger = get_logger(engine)
 
 # Import configurations
 from config import app_config, etl_config, db_config
@@ -101,7 +105,8 @@ def main():
         "🤖 AI Query Assistant",
         "🤖 Tasks Summariser",
         "📋 Standard Reports",
-        "🧾 Logs"
+        "🎯 Allocations",
+        "🧾 Logs",
     ])
     
     with tabs[0]:
@@ -123,8 +128,11 @@ def main():
 
     with tabs[5]:
         render_standard_reports(engine, db_pool)
-        
-    with tabs[6]:
+
+    with tabs[6]:  # or whatever index you want for allocations
+        render_allocations(engine)  # Pass engine instead of db_pool
+
+    with tabs[7]:
         render_activity_logs(engine)
 
     # Footer
