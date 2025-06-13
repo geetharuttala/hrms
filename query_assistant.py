@@ -278,3 +278,4 @@ def render_ai_query_assistant(engine, get_available_tables_func, gemini_api_key)
                         user=st.session_state.get('username', 'unknown'),
                         details={"user_query": user_query}
                     )
+

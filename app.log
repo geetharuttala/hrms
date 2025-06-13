@@ -7769,3 +7769,533 @@ DETAIL:  Key (created_by)=(EMP001) is not present in table "employee".
 2025-06-13 07:38:32,787 - __main__ - INFO - Database: employee_management_db
 2025-06-13 07:38:32,787 - __main__ - INFO - User: hr_admin
 2025-06-13 07:38:32,789 - __main__ - INFO - Port: 5432
+2025-06-13 07:45:21,354 - activity_logger - INFO - System logs table created or already exists
+2025-06-13 07:45:21,368 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:45:21,371 - tables - INFO - ✓ Created table: department
+2025-06-13 07:45:21,376 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:45:21,384 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:45:21,386 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:45:21,387 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:45:21,389 - tables - INFO - ✓ Created table: project
+2025-06-13 07:45:21,390 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:45:21,394 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:45:21,396 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:45:21,400 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:45:21,401 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:45:21,403 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:45:21,406 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:45:21,409 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:45:21,410 - tables - INFO - Database connection closed
+2025-06-13 07:45:21,411 - models - INFO - Database tables created successfully
+2025-06-13 07:45:21,411 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:45:21,411 - __main__ - INFO - Database Configuration:
+2025-06-13 07:45:21,411 - __main__ - INFO - Host: localhost
+2025-06-13 07:45:21,412 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:45:21,412 - __main__ - INFO - User: hr_admin
+2025-06-13 07:45:21,413 - __main__ - INFO - Port: 5432
+2025-06-13 07:45:57,529 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:45:57,533 - tables - INFO - ✓ Created table: department
+2025-06-13 07:45:57,534 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:45:57,535 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:45:57,537 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:45:57,538 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:45:57,539 - tables - INFO - ✓ Created table: project
+2025-06-13 07:45:57,541 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:45:57,545 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:45:57,546 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:45:57,547 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:45:57,548 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:45:57,549 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:45:57,558 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:45:57,561 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:45:57,562 - tables - INFO - Database connection closed
+2025-06-13 07:45:57,562 - models - INFO - Database tables created successfully
+2025-06-13 07:45:57,562 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:45:57,563 - __main__ - INFO - Database Configuration:
+2025-06-13 07:45:57,565 - __main__ - INFO - Host: localhost
+2025-06-13 07:45:57,566 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:45:57,566 - __main__ - INFO - User: hr_admin
+2025-06-13 07:45:57,566 - __main__ - INFO - Port: 5432
+2025-06-13 07:49:52,257 - database - INFO - Database connection pool initialized successfully
+2025-06-13 07:49:52,342 - activity_logger - INFO - System logs table created or already exists
+2025-06-13 07:50:23,432 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:50:23,444 - tables - INFO - ✓ Created table: department
+2025-06-13 07:50:23,445 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:50:23,445 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:50:23,445 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:50:23,446 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:50:23,446 - tables - INFO - ✓ Created table: project
+2025-06-13 07:50:23,446 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:50:23,446 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:50:23,450 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:50:23,451 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:50:23,451 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:50:23,452 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:50:23,453 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:50:23,453 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:50:23,457 - tables - INFO - Database connection closed
+2025-06-13 07:50:23,458 - models - INFO - Database tables created successfully
+2025-06-13 07:50:23,459 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:50:23,459 - __main__ - INFO - Database Configuration:
+2025-06-13 07:50:23,459 - __main__ - INFO - Host: localhost
+2025-06-13 07:50:23,460 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:50:23,460 - __main__ - INFO - User: hr_admin
+2025-06-13 07:50:23,461 - __main__ - INFO - Port: 5432
+2025-06-13 07:50:42,383 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:50:42,389 - tables - INFO - ✓ Created table: department
+2025-06-13 07:50:42,392 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:50:42,396 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:50:42,401 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:50:42,405 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:50:42,406 - tables - INFO - ✓ Created table: project
+2025-06-13 07:50:42,408 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:50:42,409 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:50:42,410 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:50:42,411 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:50:42,412 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:50:42,419 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:50:42,421 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:50:42,423 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:50:42,423 - tables - INFO - Database connection closed
+2025-06-13 07:50:42,424 - models - INFO - Database tables created successfully
+2025-06-13 07:50:42,424 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:50:42,424 - __main__ - INFO - Database Configuration:
+2025-06-13 07:50:42,424 - __main__ - INFO - Host: localhost
+2025-06-13 07:50:42,424 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:50:42,424 - __main__ - INFO - User: hr_admin
+2025-06-13 07:50:42,425 - __main__ - INFO - Port: 5432
+2025-06-13 07:50:42,721 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:50:42,727 - tables - INFO - ✓ Created table: department
+2025-06-13 07:50:42,727 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:50:42,727 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:50:42,728 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:50:42,732 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:50:42,733 - tables - INFO - ✓ Created table: project
+2025-06-13 07:50:42,733 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:50:42,734 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:50:42,736 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:50:42,737 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:50:42,737 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:50:42,739 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:50:42,741 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:50:42,743 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:50:42,747 - tables - INFO - Database connection closed
+2025-06-13 07:50:42,748 - models - INFO - Database tables created successfully
+2025-06-13 07:50:42,749 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:50:42,750 - __main__ - INFO - Database Configuration:
+2025-06-13 07:50:42,753 - __main__ - INFO - Host: localhost
+2025-06-13 07:50:42,753 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:50:42,755 - __main__ - INFO - User: hr_admin
+2025-06-13 07:50:42,755 - __main__ - INFO - Port: 5432
+2025-06-13 07:50:43,366 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:50:43,368 - tables - INFO - ✓ Created table: department
+2025-06-13 07:50:43,368 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:50:43,369 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:50:43,371 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:50:43,372 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:50:43,376 - tables - INFO - ✓ Created table: project
+2025-06-13 07:50:43,377 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:50:43,378 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:50:43,379 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:50:43,379 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:50:43,380 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:50:43,380 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:50:43,380 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:50:43,380 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:50:43,384 - tables - INFO - Database connection closed
+2025-06-13 07:50:43,384 - models - INFO - Database tables created successfully
+2025-06-13 07:50:43,385 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:50:43,385 - __main__ - INFO - Database Configuration:
+2025-06-13 07:50:43,385 - __main__ - INFO - Host: localhost
+2025-06-13 07:50:43,385 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:50:43,386 - __main__ - INFO - User: hr_admin
+2025-06-13 07:50:43,389 - __main__ - INFO - Port: 5432
+2025-06-13 07:50:43,712 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:50:43,727 - tables - INFO - ✓ Created table: department
+2025-06-13 07:50:43,727 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:50:43,730 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:50:43,731 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:50:43,732 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:50:43,732 - tables - INFO - ✓ Created table: project
+2025-06-13 07:50:43,733 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:50:43,740 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:50:43,743 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:50:43,748 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:50:43,751 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:50:43,751 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:50:43,752 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:50:43,752 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:50:43,753 - tables - INFO - Database connection closed
+2025-06-13 07:50:43,754 - models - INFO - Database tables created successfully
+2025-06-13 07:50:43,754 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:50:43,754 - __main__ - INFO - Database Configuration:
+2025-06-13 07:50:43,755 - __main__ - INFO - Host: localhost
+2025-06-13 07:50:43,755 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:50:43,756 - __main__ - INFO - User: hr_admin
+2025-06-13 07:50:43,756 - __main__ - INFO - Port: 5432
+2025-06-13 07:50:47,925 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:50:47,927 - tables - INFO - ✓ Created table: department
+2025-06-13 07:50:47,929 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:50:47,931 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:50:47,932 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:50:47,933 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:50:47,935 - tables - INFO - ✓ Created table: project
+2025-06-13 07:50:47,937 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:50:47,938 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:50:47,939 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:50:47,940 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:50:47,940 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:50:47,942 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:50:47,943 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:50:47,944 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:50:47,945 - tables - INFO - Database connection closed
+2025-06-13 07:50:47,949 - models - INFO - Database tables created successfully
+2025-06-13 07:50:47,950 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:50:47,950 - __main__ - INFO - Database Configuration:
+2025-06-13 07:50:47,950 - __main__ - INFO - Host: localhost
+2025-06-13 07:50:47,950 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:50:47,950 - __main__ - INFO - User: hr_admin
+2025-06-13 07:50:47,950 - __main__ - INFO - Port: 5432
+2025-06-13 07:50:55,124 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:50:55,132 - tables - INFO - ✓ Created table: department
+2025-06-13 07:50:55,135 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:50:55,137 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:50:55,138 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:50:55,139 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:50:55,142 - tables - INFO - ✓ Created table: project
+2025-06-13 07:50:55,145 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:50:55,146 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:50:55,147 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:50:55,147 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:50:55,148 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:50:55,149 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:50:55,149 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:50:55,150 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:50:55,152 - tables - INFO - Database connection closed
+2025-06-13 07:50:55,153 - models - INFO - Database tables created successfully
+2025-06-13 07:50:55,153 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:50:55,153 - __main__ - INFO - Database Configuration:
+2025-06-13 07:50:55,153 - __main__ - INFO - Host: localhost
+2025-06-13 07:50:55,153 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:50:55,153 - __main__ - INFO - User: hr_admin
+2025-06-13 07:50:55,154 - __main__ - INFO - Port: 5432
+2025-06-13 07:50:55,539 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:50:55,550 - tables - INFO - ✓ Created table: department
+2025-06-13 07:50:55,554 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:50:55,557 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:50:55,559 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:50:55,562 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:50:55,565 - tables - INFO - ✓ Created table: project
+2025-06-13 07:50:55,567 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:50:55,568 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:50:55,569 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:50:55,571 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:50:55,572 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:50:55,574 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:50:55,580 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:50:55,582 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:50:55,584 - tables - INFO - Database connection closed
+2025-06-13 07:50:55,584 - models - INFO - Database tables created successfully
+2025-06-13 07:50:55,584 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:50:55,585 - __main__ - INFO - Database Configuration:
+2025-06-13 07:50:55,585 - __main__ - INFO - Host: localhost
+2025-06-13 07:50:55,585 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:50:55,585 - __main__ - INFO - User: hr_admin
+2025-06-13 07:50:55,586 - __main__ - INFO - Port: 5432
+2025-06-13 07:50:56,141 - activity_logger - INFO - Logged event: ALLOCATION_UPDATE - Updated allocation for EMP0012 on project PRJ001
+2025-06-13 07:50:56,403 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:50:56,407 - tables - INFO - ✓ Created table: department
+2025-06-13 07:50:56,408 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:50:56,414 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:50:56,416 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:50:56,417 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:50:56,419 - tables - INFO - ✓ Created table: project
+2025-06-13 07:50:56,420 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:50:56,422 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:50:56,432 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:50:56,434 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:50:56,435 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:50:56,435 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:50:56,436 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:50:56,439 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:50:56,440 - tables - INFO - Database connection closed
+2025-06-13 07:50:56,442 - models - INFO - Database tables created successfully
+2025-06-13 07:50:56,442 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:50:56,443 - __main__ - INFO - Database Configuration:
+2025-06-13 07:50:56,443 - __main__ - INFO - Host: localhost
+2025-06-13 07:50:56,443 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:50:56,444 - __main__ - INFO - User: hr_admin
+2025-06-13 07:50:56,445 - __main__ - INFO - Port: 5432
+2025-06-13 07:51:11,414 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:51:11,417 - tables - INFO - ✓ Created table: department
+2025-06-13 07:51:11,421 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:51:11,422 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:51:11,424 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:51:11,426 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:51:11,427 - tables - INFO - ✓ Created table: project
+2025-06-13 07:51:11,428 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:51:11,428 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:51:11,430 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:51:11,430 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:51:11,431 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:51:11,433 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:51:11,434 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:51:11,436 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:51:11,436 - tables - INFO - Database connection closed
+2025-06-13 07:51:11,436 - models - INFO - Database tables created successfully
+2025-06-13 07:51:11,437 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:51:11,437 - __main__ - INFO - Database Configuration:
+2025-06-13 07:51:11,437 - __main__ - INFO - Host: localhost
+2025-06-13 07:51:11,437 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:51:11,437 - __main__ - INFO - User: hr_admin
+2025-06-13 07:51:11,437 - __main__ - INFO - Port: 5432
+2025-06-13 07:51:23,284 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:51:23,292 - tables - INFO - ✓ Created table: department
+2025-06-13 07:51:23,294 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:51:23,295 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:51:23,296 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:51:23,297 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:51:23,297 - tables - INFO - ✓ Created table: project
+2025-06-13 07:51:23,298 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:51:23,298 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:51:23,300 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:51:23,302 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:51:23,304 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:51:23,310 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:51:23,312 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:51:23,314 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:51:23,315 - tables - INFO - Database connection closed
+2025-06-13 07:51:23,315 - models - INFO - Database tables created successfully
+2025-06-13 07:51:23,315 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:51:23,315 - __main__ - INFO - Database Configuration:
+2025-06-13 07:51:23,315 - __main__ - INFO - Host: localhost
+2025-06-13 07:51:23,315 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:51:23,316 - __main__ - INFO - User: hr_admin
+2025-06-13 07:51:23,316 - __main__ - INFO - Port: 5432
+2025-06-13 07:51:23,331 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: attendance_report_daily.csv (attendance_report) - SUCCESS
+2025-06-13 07:51:23,337 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_exit_report.csv (employee_exit) - SUCCESS
+2025-06-13 07:51:23,342 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_master.csv (employee_master) - SUCCESS
+2025-06-13 07:51:23,349 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_work_profile.csv (work_profile) - SUCCESS
+2025-06-13 07:51:23,355 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: experience_report.csv (experience_report) - SUCCESS
+2025-06-13 07:51:23,362 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: project_allocations.csv (project_allocations) - SUCCESS
+2025-06-13 07:51:23,370 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: resource_utilization.csv (resource_utilization) - SUCCESS
+2025-06-13 07:51:23,375 - activity_logger - INFO - Logged event: FILE_UPLOAD - Unrecognized file: timesheet_report.csv
+2025-06-13 07:51:23,383 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: timesheet_report_clean.csv (timesheet_report) - SUCCESS
+2025-06-13 07:51:25,243 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:51:25,246 - tables - INFO - ✓ Created table: department
+2025-06-13 07:51:25,247 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:51:25,247 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:51:25,248 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:51:25,253 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:51:25,254 - tables - INFO - ✓ Created table: project
+2025-06-13 07:51:25,255 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:51:25,256 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:51:25,257 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:51:25,257 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:51:25,258 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:51:25,259 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:51:25,264 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:51:25,267 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:51:25,269 - tables - INFO - Database connection closed
+2025-06-13 07:51:25,269 - models - INFO - Database tables created successfully
+2025-06-13 07:51:25,270 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:51:25,270 - __main__ - INFO - Database Configuration:
+2025-06-13 07:51:25,271 - __main__ - INFO - Host: localhost
+2025-06-13 07:51:25,271 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:51:25,271 - __main__ - INFO - User: hr_admin
+2025-06-13 07:51:25,273 - __main__ - INFO - Port: 5432
+2025-06-13 07:51:25,286 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: attendance_report_daily.csv (attendance_report) - SUCCESS
+2025-06-13 07:51:25,290 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_exit_report.csv (employee_exit) - SUCCESS
+2025-06-13 07:51:25,294 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_master.csv (employee_master) - SUCCESS
+2025-06-13 07:51:25,299 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_work_profile.csv (work_profile) - SUCCESS
+2025-06-13 07:51:25,304 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: experience_report.csv (experience_report) - SUCCESS
+2025-06-13 07:51:25,310 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: project_allocations.csv (project_allocations) - SUCCESS
+2025-06-13 07:51:25,313 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: resource_utilization.csv (resource_utilization) - SUCCESS
+2025-06-13 07:51:25,317 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: timesheet_report_clean.csv (timesheet_report) - SUCCESS
+2025-06-13 07:51:27,434 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:51:27,437 - tables - INFO - ✓ Created table: department
+2025-06-13 07:51:27,438 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:51:27,440 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:51:27,441 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:51:27,442 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:51:27,442 - tables - INFO - ✓ Created table: project
+2025-06-13 07:51:27,444 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:51:27,445 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:51:27,445 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:51:27,446 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:51:27,447 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:51:27,448 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:51:27,449 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:51:27,450 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:51:27,451 - tables - INFO - Database connection closed
+2025-06-13 07:51:27,451 - models - INFO - Database tables created successfully
+2025-06-13 07:51:27,451 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:51:27,451 - __main__ - INFO - Database Configuration:
+2025-06-13 07:51:27,452 - __main__ - INFO - Host: localhost
+2025-06-13 07:51:27,452 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:51:27,452 - __main__ - INFO - User: hr_admin
+2025-06-13 07:51:27,452 - __main__ - INFO - Port: 5432
+2025-06-13 07:51:27,464 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: attendance_report_daily.csv (attendance_report) - SUCCESS
+2025-06-13 07:51:27,470 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_exit_report.csv (employee_exit) - SUCCESS
+2025-06-13 07:51:27,475 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_master.csv (employee_master) - SUCCESS
+2025-06-13 07:51:27,482 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_work_profile.csv (work_profile) - SUCCESS
+2025-06-13 07:51:27,486 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: experience_report.csv (experience_report) - SUCCESS
+2025-06-13 07:51:27,490 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: project_allocations.csv (project_allocations) - SUCCESS
+2025-06-13 07:51:27,494 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: resource_utilization.csv (resource_utilization) - SUCCESS
+2025-06-13 07:51:27,498 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: timesheet_report_clean.csv (timesheet_report) - SUCCESS
+2025-06-13 07:51:27,513 - data_seeder - INFO - Database connection established successfully
+2025-06-13 07:51:27,514 - etl - INFO - Starting ETL process with files: ['attendance_report_attendance_report_daily.csv', 'employee_exit_employee_exit_report.csv', 'employee_master_employee_master.csv', 'work_profile_employee_work_profile.csv', 'experience_report_experience_report.csv', 'project_allocations_project_allocations.csv', 'resource_utilization_resource_utilization.csv', 'timesheet_report_timesheet_report_clean.csv']
+2025-06-13 07:51:27,515 - etl - INFO - Reading attendance_report from uploads/attendance_report_attendance_report_daily.csv
+2025-06-13 07:51:27,525 - etl - INFO - Successfully read 350 rows from uploads/attendance_report_attendance_report_daily.csv
+2025-06-13 07:51:27,526 - etl - INFO - Reading employee_exit from uploads/employee_exit_employee_exit_report.csv
+2025-06-13 07:51:27,529 - etl - INFO - Successfully read 10 rows from uploads/employee_exit_employee_exit_report.csv
+2025-06-13 07:51:27,530 - etl - INFO - Reading employee_master from uploads/employee_master_employee_master.csv
+2025-06-13 07:51:27,534 - etl - INFO - Successfully read 50 rows from uploads/employee_master_employee_master.csv
+2025-06-13 07:51:27,534 - etl - INFO - Reading work_profile from uploads/work_profile_employee_work_profile.csv
+2025-06-13 07:51:27,537 - etl - INFO - Successfully read 50 rows from uploads/work_profile_employee_work_profile.csv
+2025-06-13 07:51:27,538 - etl - INFO - Reading experience_report from uploads/experience_report_experience_report.csv
+2025-06-13 07:51:27,540 - etl - INFO - Successfully read 50 rows from uploads/experience_report_experience_report.csv
+2025-06-13 07:51:27,542 - etl - INFO - Reading project_allocations from uploads/project_allocations_project_allocations.csv
+2025-06-13 07:51:27,546 - etl - INFO - Successfully read 116 rows from uploads/project_allocations_project_allocations.csv
+2025-06-13 07:51:27,547 - etl - INFO - Reading resource_utilization from uploads/resource_utilization_resource_utilization.csv
+2025-06-13 07:51:27,549 - etl - INFO - Successfully read 5 rows from uploads/resource_utilization_resource_utilization.csv
+2025-06-13 07:51:27,549 - etl - INFO - Reading timesheet_report from uploads/timesheet_report_timesheet_report_clean.csv
+2025-06-13 07:51:27,552 - etl - INFO - Successfully read 559 rows from uploads/timesheet_report_timesheet_report_clean.csv
+2025-06-13 07:51:27,552 - data_seeder - INFO - Starting database seeding with files: ['employee_master', 'employee_exit', 'experience_report', 'work_profile', 'attendance_report', 'timesheet_report', 'project_allocations', 'resource_utilization']
+2025-06-13 07:51:27,553 - data_seeder - INFO - Processing 50 employee records
+2025-06-13 07:51:27,553 - data_seeder - INFO - Seeding departments and designations...
+2025-06-13 07:51:27,561 - data_seeder - INFO - Found constraints for department: [('department_pkey', 'p', ['department_id'])]
+2025-06-13 07:51:27,566 - data_seeder - INFO - Successfully processed 17 records for department
+2025-06-13 07:51:27,571 - data_seeder - INFO - Found constraints for designation: [('designation_pkey', 'p', ['designation_id'])]
+2025-06-13 07:51:27,576 - data_seeder - INFO - Successfully processed 3 records for designation
+2025-06-13 07:51:27,578 - data_seeder - INFO - Found 3 departments and 3 designations
+2025-06-13 07:51:27,579 - data_seeder - INFO - Seeding employee data...
+2025-06-13 07:51:27,580 - data_seeder - INFO - Seeding employees...
+2025-06-13 07:51:27,602 - data_seeder - INFO - Found constraints for employee: [('employee_department_id_fkey', 'f', ['department_id']), ('employee_designation_id_fkey', 'f', ['designation_id']), ('employee_email_key', 'u', ['email']), ('employee_pkey', 'p', ['employee_code']), ('employee_primary_manager_id_fkey', 'f', ['primary_manager_id'])]
+2025-06-13 07:51:27,606 - data_seeder - ERROR - Bulk insert failed for employee: value too long for type character varying(20)
+
+2025-06-13 07:51:27,607 - data_seeder - INFO - Attempting individual inserts for employee
+2025-06-13 07:51:27,610 - data_seeder - WARNING - Failed to insert record ('EMP0001', 'David Dixon')...: duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (employee_code)=(EMP0001) already exists.
+
+2025-06-13 07:51:27,613 - data_seeder - WARNING - Failed to insert record ('EMP0002', 'Joseph Wilson')...: duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (employee_code)=(EMP0002) already exists.
+
+2025-06-13 07:51:27,614 - data_seeder - WARNING - Failed to insert record ('EMP0003', 'Lori Bennett')...: duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (employee_code)=(EMP0003) already exists.
+
+2025-06-13 07:51:27,616 - data_seeder - WARNING - Failed to insert record ('EMP0004', 'Rachel Martinez')...: duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (employee_code)=(EMP0004) already exists.
+
+2025-06-13 07:51:27,618 - data_seeder - WARNING - Failed to insert record ('EMP0005', 'Tyler Peterson')...: duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (employee_code)=(EMP0005) already exists.
+
+2025-06-13 07:51:27,678 - data_seeder - INFO - Individual inserts completed: 0 success, 50 failures
+2025-06-13 07:51:27,688 - data_seeder - INFO - Found constraints for employee_personal: [('employee_personal_aadhaar_number_key', 'u', ['aadhaar_number']), ('employee_personal_employee_code_fkey', 'f', ['employee_code']), ('employee_personal_gender_check', 'c', ['gender']), ('employee_personal_pan_number_key', 'u', ['pan_number']), ('employee_personal_pkey', 'p', ['employee_code'])]
+2025-06-13 07:51:27,695 - data_seeder - INFO - Successfully processed 50 records for employee_personal
+2025-06-13 07:51:27,697 - data_seeder - INFO - Found constraints for employee_financial: [('employee_financial_account_number_key', 'u', ['account_number']), ('employee_financial_employee_code_fkey', 'f', ['employee_code']), ('employee_financial_pkey', 'p', ['employee_code'])]
+2025-06-13 07:51:27,705 - data_seeder - INFO - Successfully processed 50 records for employee_financial
+2025-06-13 07:51:27,705 - data_seeder - INFO - Processing 50 work profiles
+2025-06-13 07:51:27,711 - data_seeder - INFO - Processing work profiles...
+2025-06-13 07:51:27,886 - data_seeder - INFO - Processing 50 experience records
+2025-06-13 07:51:27,886 - data_seeder - INFO - Updating employee experience data...
+2025-06-13 07:51:28,037 - data_seeder - INFO - Processing 10 exit records
+2025-06-13 07:51:28,038 - data_seeder - INFO - Seeding employee exits...
+2025-06-13 07:51:28,054 - data_seeder - INFO - Found constraints for employee_exit: [('employee_exit_employee_code_fkey', 'f', ['employee_code']), ('employee_exit_employee_code_key', 'u', ['employee_code']), ('employee_exit_pkey', 'p', ['exit_id'])]
+2025-06-13 07:51:28,059 - data_seeder - INFO - Successfully processed 10 records for employee_exit
+2025-06-13 07:51:28,090 - data_seeder - INFO - Processing 559 timesheet records
+2025-06-13 07:51:28,091 - data_seeder - INFO - Seeding projects...
+2025-06-13 07:51:28,094 - data_seeder - INFO - Processing 116 allocation records
+2025-06-13 07:51:28,095 - data_seeder - INFO - Seeding project allocations...
+2025-06-13 07:51:28,173 - data_seeder - INFO - Found constraints for project_allocation: [('chk_effective_dates', 'c', ['effective_from', 'effective_to']), ('project_allocation_allocation_percentage_check', 'c', ['allocation_percentage']), ('project_allocation_created_by_fkey', 'f', ['created_by']), ('project_allocation_employee_code_fkey', 'f', ['employee_code']), ('project_allocation_pkey', 'p', ['allocation_id']), ('project_allocation_project_id_fkey', 'f', ['project_id'])]
+2025-06-13 07:51:28,188 - data_seeder - INFO - Successfully processed 116 records for project_allocation
+2025-06-13 07:51:28,189 - data_seeder - INFO - Processing 5 resource utilization records
+2025-06-13 07:51:28,191 - data_seeder - INFO - Seeding resource utilization data...
+2025-06-13 07:51:28,202 - data_seeder - INFO - Found constraints for resource_utilization: [('resource_utilization_pkey', 'p', ['project_id', 'week_start_date']), ('resource_utilization_project_id_fkey', 'f', ['project_id'])]
+2025-06-13 07:51:28,205 - data_seeder - INFO - Successfully processed 5 records for resource_utilization
+2025-06-13 07:51:28,206 - data_seeder - INFO - Processing 350 attendance records
+2025-06-13 07:51:28,207 - data_seeder - INFO - Seeding attendance data...
+2025-06-13 07:51:28,416 - data_seeder - INFO - Found constraints for attendance: [('attendance_employee_code_attendance_date_key', 'u', ['attendance_date', 'employee_code']), ('attendance_employee_code_fkey', 'f', ['employee_code']), ('attendance_pkey', 'p', ['attendance_id'])]
+2025-06-13 07:51:28,445 - data_seeder - INFO - Successfully processed 350 records for attendance
+2025-06-13 07:51:28,446 - data_seeder - INFO - Processing 559 timesheet entries
+2025-06-13 07:51:28,446 - data_seeder - INFO - Seeding timesheet data...
+2025-06-13 07:51:28,674 - data_seeder - INFO - Found constraints for timesheet: [('timesheet_allocation_id_fkey', 'f', ['allocation_id']), ('timesheet_employee_code_fkey', 'f', ['employee_code']), ('timesheet_employee_code_project_id_work_date_key', 'u', ['work_date', 'employee_code', 'project_id']), ('timesheet_hours_worked_check', 'c', ['hours_worked']), ('timesheet_pkey', 'p', ['timesheet_id']), ('timesheet_project_id_fkey', 'f', ['project_id'])]
+2025-06-13 07:51:28,715 - data_seeder - INFO - Successfully processed 559 records for timesheet
+2025-06-13 07:51:28,716 - data_seeder - INFO - Processing 5 resource utilization entries
+2025-06-13 07:51:28,716 - data_seeder - INFO - Seeding resource utilization data...
+2025-06-13 07:51:28,723 - data_seeder - INFO - Found constraints for resource_utilization: [('resource_utilization_pkey', 'p', ['project_id', 'week_start_date']), ('resource_utilization_project_id_fkey', 'f', ['project_id'])]
+2025-06-13 07:51:28,728 - data_seeder - INFO - Successfully processed 5 records for resource_utilization
+2025-06-13 07:51:28,731 - data_seeder - INFO - Database seeding completed successfully
+2025-06-13 07:51:28,733 - data_seeder - INFO - Database connection closed
+2025-06-13 07:51:28,742 - activity_logger - INFO - Logged event: FILE_PROCESSING - File processed: attendance_report_attendance_report_daily.csv
+2025-06-13 07:51:28,749 - activity_logger - INFO - Logged event: FILE_PROCESSING - File processed: employee_exit_employee_exit_report.csv
+2025-06-13 07:51:28,755 - activity_logger - INFO - Logged event: FILE_PROCESSING - File processed: employee_master_employee_master.csv
+2025-06-13 07:51:28,759 - activity_logger - INFO - Logged event: FILE_PROCESSING - File processed: work_profile_employee_work_profile.csv
+2025-06-13 07:51:28,762 - activity_logger - INFO - Logged event: FILE_PROCESSING - File processed: experience_report_experience_report.csv
+2025-06-13 07:51:28,768 - activity_logger - INFO - Logged event: FILE_PROCESSING - File processed: project_allocations_project_allocations.csv
+2025-06-13 07:51:28,773 - activity_logger - INFO - Logged event: FILE_PROCESSING - File processed: resource_utilization_resource_utilization.csv
+2025-06-13 07:51:28,777 - activity_logger - INFO - Logged event: FILE_PROCESSING - File processed: timesheet_report_timesheet_report_clean.csv
+2025-06-13 07:52:34,154 - database - INFO - Database connection pool initialized successfully
+2025-06-13 07:52:34,212 - activity_logger - INFO - System logs table created or already exists
+2025-06-13 07:52:34,230 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:52:34,231 - tables - INFO - ✓ Created table: department
+2025-06-13 07:52:34,232 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:52:34,235 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:52:34,236 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:52:34,237 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:52:34,237 - tables - INFO - ✓ Created table: project
+2025-06-13 07:52:34,238 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:52:34,239 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:52:34,240 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:52:34,241 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:52:34,241 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:52:34,242 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:52:34,243 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:52:34,243 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:52:34,243 - tables - INFO - Database connection closed
+2025-06-13 07:52:34,243 - models - INFO - Database tables created successfully
+2025-06-13 07:52:34,243 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:52:34,244 - __main__ - INFO - Database Configuration:
+2025-06-13 07:52:34,244 - __main__ - INFO - Host: localhost
+2025-06-13 07:52:34,244 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:52:34,244 - __main__ - INFO - User: hr_admin
+2025-06-13 07:52:34,244 - __main__ - INFO - Port: 5432
+2025-06-13 07:52:34,264 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: attendance_report_daily.csv (attendance_report) - SUCCESS
+2025-06-13 07:52:34,269 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_exit_report.csv (employee_exit) - SUCCESS
+2025-06-13 07:52:34,275 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_master.csv (employee_master) - SUCCESS
+2025-06-13 07:52:34,282 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_work_profile.csv (work_profile) - SUCCESS
+2025-06-13 07:52:34,288 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: experience_report.csv (experience_report) - SUCCESS
+2025-06-13 07:52:34,295 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: project_allocations.csv (project_allocations) - SUCCESS
+2025-06-13 07:52:34,298 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: resource_utilization.csv (resource_utilization) - SUCCESS
+2025-06-13 07:52:34,303 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: timesheet_report_clean.csv (timesheet_report) - SUCCESS
+2025-06-13 07:52:44,416 - tables - INFO - Connected to PostgreSQL database: employee_management_db
+2025-06-13 07:52:44,420 - tables - INFO - ✓ Created table: department
+2025-06-13 07:52:44,422 - tables - INFO - ✓ Created table: designation
+2025-06-13 07:52:44,424 - tables - INFO - ✓ Created table: employee
+2025-06-13 07:52:44,425 - tables - INFO - ✓ Created table: employee_personal
+2025-06-13 07:52:44,425 - tables - INFO - ✓ Created table: employee_financial
+2025-06-13 07:52:44,426 - tables - INFO - ✓ Created table: project
+2025-06-13 07:52:44,427 - tables - INFO - ✓ Created table: project_allocation
+2025-06-13 07:52:44,428 - tables - INFO - ✓ Created table: timesheet
+2025-06-13 07:52:44,428 - tables - INFO - ✓ Created table: attendance
+2025-06-13 07:52:44,428 - tables - INFO - ✓ Created table: employee_exit
+2025-06-13 07:52:44,428 - tables - INFO - ✓ Created table: csv_upload_log
+2025-06-13 07:52:44,432 - tables - INFO - ✓ Created table: data_validation_errors
+2025-06-13 07:52:44,434 - tables - INFO - ✓ Created table: resource_utilization
+2025-06-13 07:52:44,435 - tables - INFO - Successfully created 13 tables
+2025-06-13 07:52:44,436 - tables - INFO - Database connection closed
+2025-06-13 07:52:44,436 - models - INFO - Database tables created successfully
+2025-06-13 07:52:44,437 - __main__ - INFO - Database tables created successfully
+2025-06-13 07:52:44,438 - __main__ - INFO - Database Configuration:
+2025-06-13 07:52:44,439 - __main__ - INFO - Host: localhost
+2025-06-13 07:52:44,439 - __main__ - INFO - Database: employee_management_db
+2025-06-13 07:52:44,440 - __main__ - INFO - User: hr_admin
+2025-06-13 07:52:44,441 - __main__ - INFO - Port: 5432
+2025-06-13 07:52:44,455 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: attendance_report_daily.csv (attendance_report) - SUCCESS
+2025-06-13 07:52:44,460 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_exit_report.csv (employee_exit) - SUCCESS
+2025-06-13 07:52:44,466 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_master.csv (employee_master) - SUCCESS
+2025-06-13 07:52:44,470 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: employee_work_profile.csv (work_profile) - SUCCESS
+2025-06-13 07:52:44,474 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: experience_report.csv (experience_report) - SUCCESS
+2025-06-13 07:52:44,479 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: project_allocations.csv (project_allocations) - SUCCESS
+2025-06-13 07:52:44,484 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: resource_utilization.csv (resource_utilization) - SUCCESS
+2025-06-13 07:52:44,488 - activity_logger - INFO - Logged event: FILE_UPLOAD - File upload: timesheet_report_clean.csv (timesheet_report) - SUCCESS

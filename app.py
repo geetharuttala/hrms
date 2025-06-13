@@ -21,9 +21,13 @@ from report import render_standard_reports
 from activity_log_view import render_activity_logs
 from activity_logger import get_logger
 from allocations import render_allocations
+from auth import AuthManager
 
 # Load environment variables
 load_dotenv()
+
+# Initialize auth manager
+auth_manager = AuthManager()
 
 # URL encode the password if it contains special characters
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
@@ -77,23 +81,34 @@ def get_available_tables():
         st.error(f"Error getting tables: {e}")
         return []
 
-# Initialize database tables
-try:
-    create_tables()
-    logger.info("Database tables created successfully")
-except Exception as e:
-    logger.error(f"Error creating database tables: {e}")
-    st.error("Failed to initialize database tables. Please check the logs.")
+def initialize_database():
+    """Initialize database tables"""
+    try:
+        create_tables()
+        logger.info("Database tables created successfully")
+    except Exception as e:
+        logger.error(f"Error creating database tables: {e}")
+        st.error("Failed to initialize database tables. Please check the logs.")
 
-def main():
-    """Main application entry point"""
+def render_authenticated_app():
+    """Render the main application after authentication"""
+    # Initialize database tables
+    initialize_database()
+
     # Debug logging for database configuration
     logger.info("Database Configuration:")
     logger.info(f"Host: {db_config.host}")
     logger.info(f"Database: {db_config.database}")
     logger.info(f"User: {db_config.user}")
     logger.info(f"Port: {db_config.port}")
-    
+
+    # Add logout button to sidebar
+    with st.sidebar:
+        st.markdown("---")
+        st.markdown(f"👤 **Logged in as:** {auth_manager.get_current_user()}")
+        if st.button("🚪 Logout", use_container_width=True):
+            auth_manager.logout()
+
     # Page title
     st.title("Employee Reports Dashboard")
 
@@ -115,12 +130,10 @@ def main():
     with tabs[1]:
         render_summary_reports()
     
-    # Fix: Custom Queries should be in tabs[2], AI Query Assistant in tabs[3]
     with tabs[2]:
         render_custom_queries(engine)
     
     with tabs[3]:
-        # Move AI Query Assistant to the correct tab
         render_ai_query_assistant(engine, get_available_tables, GEMINI_API_KEY)
 
     with tabs[4]:
@@ -129,16 +142,21 @@ def main():
     with tabs[5]:
         render_standard_reports(engine, db_pool)
 
-    with tabs[6]:  # or whatever index you want for allocations
-        render_allocations(engine)  # Pass engine instead of db_pool
+    with tabs[6]:
+        render_allocations(engine)
 
     with tabs[7]:
         render_activity_logs(engine)
 
-    # Footer
-    # st.sidebar.markdown("---")
-    #st.sidebar.markdown(f"Version: {app_config.version}")
-
+def main():
+    """Main application entry point"""
+    # Check authentication
+    if not auth_manager.is_authenticated():
+        if not auth_manager.login_form():
+            return
+    
+    # If authenticated, render the main app
+    render_authenticated_app()
 
 if __name__ == "__main__":
     main()
