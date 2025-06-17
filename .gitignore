@@ -1,23 +1,19 @@
-.venv
+# Environment & IDE
+.venv/
 .env
-.res_util
-.gitignore
-.env
-.env
-.idea
-.venv
-res_util.zip
-res_util.zip
-res_util
-.idea
-__pycache__
-pycache
-uploads
-.gitignore
-csv_files
 .idea/
+.DS_Store
+
+# Python caches
 __pycache__/
-pycache/
+*.pyc
+
+# App-specific folders/files
 uploads/
 csv_files/
-*.pyc
+logs/
+app.log
+
+# Zip files
+res_util.zip
+res_util/
