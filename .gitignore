@@ -9,3 +9,9 @@
 res_util.zip
 res_util.zip
 res_util
+.idea
+__pycache__
+pycache
+uploads
+.gitignore
+csv_files
