@@ -15,3 +15,9 @@ pycache
 uploads
 .gitignore
 csv_files
+.idea/
+__pycache__/
+pycache/
+uploads/
+csv_files/
+*.pyc
