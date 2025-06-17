@@ -7,7 +7,7 @@ from sqlalchemy import text
 
 def render_allocations(engine):
     """Render the allocations management page"""
-    st.subheader("Project Allocations Management")
+    st.subheader("Allocations Management")
 
     # Get the global activity logger instance
     logger = get_logger()
